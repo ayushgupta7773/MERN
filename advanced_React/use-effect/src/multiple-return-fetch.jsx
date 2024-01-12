@@ -11,22 +11,52 @@
 //   console.log(jjson);
 
 // };
-import { useEffect } from "react";
+
+
+// ---------------------------------------------------------
+// import { useEffect } from "react";
+
+// export const MultipleReturnFetch = () => {
+//   useEffect(() => {
+    //     const fetchData = async () => {
+//       try {
+//         const response = await fetch('https://api.github.com/users/devilthekiller');
+
+//         if (!response.ok) {
+//           throw new Error("Network response was not ok");
+//         }
+
+//         const jsonData = await response.json();
+//         console.log(jsonData);
+//       } catch (error) {
+    //         console.error("Error fetching data:", error);
+    //       }
+//     };
+
+//     fetchData();
+//   }, []);
+
+//   return (
+    //     <div>
+    //       {/* You can render any component-specific JSX here if needed */}
+    //     </div>
+//   );
+// };
+
+// ---------------------------------------------------------
+
+
+import { useEffect } from 'react';
 
 export const MultipleReturnFetch = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://api.github.com/users/devilthekiller');
-
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-
+        const response = await fetch('http://localhost:3001/spotifyData');
         const jsonData = await response.json();
         console.log(jsonData);
       } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error('Error fetching data:', error);
       }
     };
 
