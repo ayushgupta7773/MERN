@@ -1,0 +1,16 @@
+h2{
+    color: bisque;
+}
+img{
+    height: 5rem;
+    border-radius: 10rem;
+}
+li{
+    background-color: rgb(23, 21, 21);
+    margin: 1rem;
+    width: 50rem;
+}
+ul{
+
+    /* text-decoration: none; */
+}
