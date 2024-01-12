@@ -10,6 +10,8 @@ li{
     background-color: rgb(23, 21, 21);
     margin: 1rem;
     width: 50rem;
+    display: flex;
+    padding: 2rem;
 }
 ul{
     text-decoration: none;
