@@ -4,6 +4,7 @@ h2{
 img{
     height: 5rem;
     border-radius: 10rem;
+    border: 2px solid black;
 }
 li{
     background-color: rgb(23, 21, 21);
@@ -11,6 +12,6 @@ li{
     width: 50rem;
 }
 ul{
+    text-decoration: none;
 
-    /* text-decoration: none; */
 }
