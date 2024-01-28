@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       {/* <UseEffectBasics /> */}
-      {/* <FetchData></FetchData> */}
+      {/* <FetchData></FetchData>  */}
       <MultipleReturnFetch/>
     </>
   );

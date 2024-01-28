@@ -16,7 +16,7 @@ export const MultipleReturnFetch = () => {
           setIsError(true);
           throw new Error("Network response was not ok");
         }
- 
+
         setUser(user); // Update the state with the fetched user data
         console.log(user); // Log the data on the initial render
       } catch (error) {
